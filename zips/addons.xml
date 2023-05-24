@@ -49,7 +49,7 @@
         <forum></forum>
     </extension>
 </addon>
-<addon id="plugin.video.elementum" name="Elementum" version="0.1.87.android_arm64" provider-name="elgatito">
+<addon id="plugin.video.elementum" name="Elementum" version="0.1.87.android_x86" provider-name="elgatito">
     <requires>
         <import addon="xbmc.addon" version="16.0.0" />
         <import addon="repository.elementum" optional="true" />
@@ -93,7 +93,7 @@
         </assets>
     </extension>
 </addon>
-<addon id="plugin.video.elementum" name="Elementum" version="0.1.87.android_x86" provider-name="elgatito">
+<addon id="plugin.video.elementum" name="Elementum" version="0.1.87.android_arm64" provider-name="elgatito">
     <requires>
         <import addon="xbmc.addon" version="16.0.0" />
         <import addon="repository.elementum" optional="true" />
