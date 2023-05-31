@@ -130,10 +130,11 @@
         </assets>
     </extension>
 </addon>
-<addon id="script.elementum.rajada" name="Elementum [COLOR FFFF6B00]Rajada[/COLOR]" version="0.2.dev" provider-name="elgatito, gbchr">
+<addon id="script.elementum.rajada" name="Elementum [COLOR FFFF6B00]Rajada[/COLOR]" version="0.2" provider-name="elgatito, gbchr">
     <requires>
         <import addon="xbmc.addon" version="16.0.0" />
         <import addon="plugin.video.elementum" optional="true"/>
+        <import addon="context.elementum" optional="true"/>
         <import addon="script.module.kodi-six" />
         <import addon="script.module.requests" />
         <import addon="script.module.future" version="0.16.0.4"/>
