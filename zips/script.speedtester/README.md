@@ -1,0 +1,1 @@
+Source code: https://github.com/add-ons/script.speedtester
