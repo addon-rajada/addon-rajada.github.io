@@ -298,6 +298,30 @@
         </assets>
     </extension>
 </addon>
+<addon id="script.elementum.jackett" name="Elementum [COLOR FF0291F7]Jackett[/COLOR]" version="3.0.0" provider-name="fugkco">  
+      <requires>    
+            <import addon="xbmc.python" version="3.0.0"/>    
+            <import addon="plugin.video.elementum"/>    
+            <import addon="script.module.urllib3"/>    
+            <import addon="script.module.kodi-six"/>    
+      </requires>  
+      <extension point="xbmc.python.script" library="src/main.py">    
+            <provides>executable</provides>    
+      </extension>  
+      <extension point="xbmc.addon.metadata">    
+            <summary lang="en">Elementum Jackett provider</summary>    
+            <description lang="en">Elementum Jackett is a provider that connects Elementum to Jacket. You need to run your own Jackett server.</description>    
+            <license>WTFPL, Version 2</license>    
+            <website>https://github.com/fugkco/script.elementum.jackett</website>    
+            <source>https://github.com/fugkco/script.elementum.jackett</source>    
+            <assets>      
+                  <icon>resources/images/icon.png</icon>      
+            </assets>    
+        <news>[B]3.0.0[/B] (2023-10-16)
+
+
+</news>  </extension>  
+</addon>
 <addon id="script.elementum.rajada" name="Elementum [COLOR FFFF6B00]Rajada[/COLOR]" version="0.1" provider-name="gbchr">
     <requires>
         <import addon="xbmc.addon" version="16.0.0" />
