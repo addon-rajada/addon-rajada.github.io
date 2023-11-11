@@ -1,8 +1,15 @@
-# create repository zip
-zip -r -u -9 -T repository.addon-rajada.zip repository.addon-rajada/
+echo "Generate repository zip? [Y,n]"
+read input
 
-# copy to zips folder
-cp repository.addon-rajada.zip zips/repository.addon-rajada
+if [[ $input == "Y" || $input == "y" ]]; then
+	echo "Yes"
+	# create repository zip
+	zip -r -u -9 -T repository.addon-rajada.zip repository.addon-rajada/
+	# copy to zips folder
+	cp repository.addon-rajada.zip zips/repository.addon-rajada
+else
+	echo "No"
+fi
 
 # create md5 file
 cd zips
