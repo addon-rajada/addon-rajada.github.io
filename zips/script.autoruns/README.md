@@ -1,0 +1,1 @@
+Source code: https://github.com/bittor7x0/kodi.script.autoruns
