@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.addon-rajada" name="[COLOR FFFF6B00]Repositório Rajada[/COLOR]" version="1.1" provider-name="gbchr">
+<addon id="repository.addon-rajada" name="[B][COLOR FFFF6B00]Repositório Rajada[/COLOR][/B]" version="1.2" provider-name="gbchr">
     <extension point="xbmc.addon.repository" name="Repositório Rajada">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/addon-rajada/addon-rajada.github.io/main/zips/addons.xml</info>
@@ -8,10 +8,11 @@
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>Repositório Rajada</summary>
-        <description>Repositório Rajada</description>
+        <summary>[COLOR FFFF6B00]Repositório Rajada[/COLOR]</summary>
+        <description></description>
         <disclaimer></disclaimer>
         <platform>all</platform>
+		<website>https://addon-rajada.github.io/</website>
         <assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
