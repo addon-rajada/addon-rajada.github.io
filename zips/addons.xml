@@ -628,7 +628,7 @@
         </assets>
     </extension>
 </addon>
-<addon id="plugin.video.elementum" name="Elementum" version="0.1.98" provider-name="elgatito">
+<addon id="plugin.video.elementum" name="Elementum" version="0.1.99" provider-name="elgatito">
     <requires>
         <import addon="xbmc.addon" version="16.0.0" />
         <import addon="repository.elementumorg" optional="true" />
