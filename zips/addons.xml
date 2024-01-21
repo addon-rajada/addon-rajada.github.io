@@ -1413,4 +1413,22 @@ Supports: OpenSubtitles, BSPlayer, Podnadpisi.NET, Subscene, Addic7ed
         </news>
     </extension>
 </addon>
+<addon id="plugin.video.iptvbuster" name="IPTV Buster" version="0.1" provider-name="gbchr">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB"></summary>
+    <description lang="en_GB"></description>
+    <language></language>
+    <platform>all</platform>
+      <assets>
+        <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
 </addons>
