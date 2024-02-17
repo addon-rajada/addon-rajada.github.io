@@ -1546,4 +1546,61 @@ Supports: OpenSubtitles, BSPlayer, Podnadpisi.NET, Subscene, Addic7ed
         <reuselanguageinvoker>true</reuselanguageinvoker>
     </extension>
 </addon>
+<addon id="script.module.cached" name="Cached" provider-name="i96751414" version="0.0.4">
+    <requires>
+        <!--<import addon="xbmc.python" version="3.0.0"/>-->
+    </requires>
+    <extension point="xbmc.python.module" library="lib"/>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <license>See https://github.com/i96751414/script.module.cached/blob/master/LICENSE</license>
+        <source>https://github.com/i96751414/script.module.cached</source>
+        <language>en</language>
+        <summary lang="en">Cached - A simple cache implementation for Kodi</summary>
+        <description lang="en">Cached is a Kodi python module which provide some simple caching functions.</description>
+        <platform>all</platform>
+        <news>
+            - Add support to Kodi 20
+        </news>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+<addon id="plugin.video.flix" name="Flix" provider-name="i96751414" version="0.0.15">
+    <requires>
+        <!--<import addon="xbmc.python" version="3.0.0"/>-->
+        <import addon="script.module.routing" version="0.2.3"/>
+        <import addon="script.module.requests" version="2.22.0"/>
+        <import addon="script.module.cached" version="0.0.1"/>
+        <import addon="script.module.tmdbsimple" version="2.2.0"/>
+        <!-- futures must be optional so we have py2/3 compatibility -->
+        <import addon="script.module.futures" version="2.2.0" optional="true"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="navigation.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.python.module" library="lib/api"/>
+    <extension point="xbmc.subtitle.module" library="navigation.py"/>
+    <extension point="xbmc.service" library="service.py"/>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <license>See https://github.com/i96751414/plugin.video.flix/blob/master/LICENSE</license>
+        <source>https://github.com/i96751414/plugin.video.flix</source>
+        <language>en</language>
+        <summary lang="en">Flix - A movie scraper for Kodi</summary>
+        <description lang="en">Flix is a movie scraper which allows for custom providers.</description>
+        <news>
+- Update opensubtitles to new API
+- Minor improvements
+        </news>
+        <assets>
+            <icon>icon.png</icon>
+            <screenshot>resources/screenshots/screenshot-1.jpg</screenshot>
+            <screenshot>resources/screenshots/screenshot-2.jpg</screenshot>
+            <screenshot>resources/screenshots/screenshot-3.jpg</screenshot>
+        </assets>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+    </extension>
+</addon>
 </addons>
