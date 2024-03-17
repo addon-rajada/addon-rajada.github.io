@@ -1,0 +1,1 @@
+Source: https://github.com/burekasKodi/repository.burekasKodi/tree/main/zips/service.subtitles.opensubtitles_plus
