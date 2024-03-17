@@ -1642,4 +1642,42 @@ Supports: OpenSubtitles, BSPlayer, Podnadpisi.NET, Subscene, Addic7ed
 	<reuselanguageinvoker>true</reuselanguageinvoker>
 
 </addon>
+<addon id="plugin.program.shortlist" name="Shortlist" version="0.0.13" provider-name="Gothicawakening, kcook98765, krruzic, gbchr">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_gb">Shortlist movies to watch</summary>
+    <description lang="en_gb">Provides a way to build shortlists of movies to watch</description>
+    <disclaimer lang="en_gb"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+    <news></news>
+    <assets>
+        <icon>resources/icon.png</icon>
+        <fanart></fanart>
+        <screenshot></screenshot>
+    </assets>
+  </extension>
+  <extension point="kodi.context.item">
+      <menu id="kodi.core.main">
+        <item library="capture.py" args="file">
+            <label>30012</label>
+            <visible>!ListItem.IsFolder + !String.IsEqual(Container.PluginName,plugin.program.shortlist)</visible>
+        </item>
+        <item library="capture.py" args="folder">
+            <label>30014</label>
+            <visible>ListItem.IsFolder + !String.IsEqual(Container.PluginName,plugin.program.shortlist)</visible>
+        </item>
+      </menu>
+  </extension>
+</addon>
 </addons>
