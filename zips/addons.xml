@@ -1945,4 +1945,82 @@ v1.0.1 (2023-07-28)
     </assets>
  </extension>
 </addon>
+<addon id="plugin.video.haru" name="haru" version="1.12.0" provider-name="pikdum">
+  <requires>
+    <import addon="xbmc.python" version="3.00.0"/>
+    <import addon="script.module.resolveurl" version="5.1.61"/>
+    <import addon="script.module.requests" version="2.25.0"/>
+    <import addon="script.module.beautifulsoup4" version="4.9.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="haru.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+    <summary lang="en">haru</summary>
+    <description lang="en">a simple anime addon</description>
+    <license>GPL-2.0-only</license>
+    <source>https://github.com/pikdum/plugin.video.haru</source>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+    <news>1.12.0 (2024-01-24)
+
+Features
+
+-   subsplease: look up unfinished shows (f6edd6f)
+
+1.11.0 (2023-10-05)
+
+Features
+
+-   nyaa: add latest + popular links (ce086d1)
+-   nyaa: add search sorting options (cc104b3)
+-   nyaa: allow search results in skin widgets (d2132a8)
+
+1.10.0 (2023-09-16)
+
+Features
+
+-   better poster + fanart (#37) (6177371)
+
+1.9.0 (2023-09-13)
+
+Features
+
+-   allow configuring torrent search category (71cb07e)
+-   move clear history under settings (3f97401)
+-   subsplease: move all airing to bottom (74a1847)
+-   sukebei support (7201047)
+-   torrents: allow choosing search category (697fc8f)
+-   torrest support + addon settings (#33) (#36) (cff0285)
+
+Bug Fixes
+
+-   subsplease: remove tbd (3d58059)
+
+1.8.0 (2023-07-18)
+
+Features
+
+-   subsplease: thumbnail art (e6f7e5f)
+
+Bug Fixes
+
+-   subsplease: broken history links (55d46b3)
+
+1.7.0 (2022-10-06)
+
+Features
+
+-   add somewhat working AnimeXin support (#29) (11ca456)
+
+1.6.0 (2022-08-13)
+
+Features
+
+-   nyaa: show more torrent de...</news>
+  </extension>
+</addon>
 </addons>
