@@ -2051,4 +2051,33 @@ Features
 -   nyaa: show more torrent de...</news>
   </extension>
 </addon>
+<addon id="plugin.video.naruto" name="Naruto" version="0.1" provider-name="gbchr">
+	
+	<requires>
+		<import addon="script.module.kodi-six" />
+		<import addon="script.module.requests" />
+		<import addon="script.module.future" />
+	</requires>
+
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+
+	<extension point="xbmc.service" library="service.py" start="startup" />
+
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="pt">Naruto Dublado e Legendado</summary>
+		<summary lang="en"></summary>
+		<description lang="pt">Naruto Dublado e Legendado</description>
+		<description lang="en"></description>
+		<license>GNU General Public License, v2</license>
+		<source></source>
+		<assets>
+			<icon>resources/media/icon.jpg</icon>
+			<fanart>resources/media/fanart.jpg</fanart>
+		</assets>
+	</extension>
+
+</addon>
 </addons>
