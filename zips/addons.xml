@@ -2015,6 +2015,47 @@ v1.0.1 (2023-07-28)
     </assets>
  </extension>
 </addon>
+<addon id="script.jacktook.rajada" name="Jacktook [COLOR FFFF6B00]Rajada[/COLOR]" version="0.5" provider-name="gbchr">
+    <requires>
+        <import addon="xbmc.addon" version="16.0.0" />
+        <import addon="plugin.video.jacktook" optional="true"/>
+        <import addon="script.module.kodi-six" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.future" version="0.16.0.4"/>
+        <import addon="resource.language.pt_br" optional="true"/>
+    </requires>
+    <extension point="xbmc.python.script" library="jacktook_main.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+		<summary lang="pt">Provedor de torrents para o Jacktook, focado em trackers brasileiros</summary>
+        <summary lang="en">Jacktook torrents provider focused on brazilian trackers</summary>
+        <summary lang="hr">Jacktook torrent pružatelji usluga</summary>
+        <summary lang="es">Proveedor de torrents Jacktook</summary>
+        <summary lang="ru">Поисковое дополнение Jacktook</summary>
+        <summary lang="sv">Jacktook-torrentleverantör</summary>
+        <description lang="pt">Jacktook Rajada é um multi-provedor leve e eficiente para o Jacktook.</description>
+		<description lang="en">Jacktook Rajada is a lean and mean multi-provider for Jacktook.</description>
+        <description lang="hr">Jacktook Rajada je višestruki pružatelj usluga za Jacktook.</description>
+        <description lang="es">Jacktook Rajada es un multi-proveedor simple y eficiente para Jacktook.</description>
+        <description lang="ru">Jacktook Rajada это поисковое дополнение, для поиска торрентов для Jacktook.</description>
+        <description lang="sv">Jacktook Rajada är en enkel och effektiv multi-leverantör för Jacktook.</description>
+        <disclaimer lang="pt">O autor não hospeda nem distribui nenhum conteúdo exibido por este addon. O autor não tem nenhuma afiliação com os provedores de conteúdo.</disclaimer>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content providers.</disclaimer>
+        <disclaimer lang="hr">Autor ovog dodatka ne posjeduje i ne distribuira bilo kakav sadržaj koji je pronađen. Autor nije povezan sa bilo kojim izvorom sadržaja.</disclaimer>
+        <disclaimer lang="es">El autor no aloja ni distribuye ninguno de los contenidos mostrados por este complemento. El autor no tiene ninguna afiliación con los proveedores de contenido.</disclaimer>
+        <disclaimer lang="ru">Автор не несёт ответственности за использование дополнения, не распространяет данные, выводимые дополнением.</disclaimer>
+        <disclaimer lang="sv">Skaparen är inte värd eller distribuerar något av innehållet som visas av detta tillägg. Skaparen har ingen anslutning till innehållsleverantörerna.</disclaimer>
+        <license>WTFPL, Version 2, December 2004. See included LICENSE.</license>
+        <website>https://addon-rajada.github.io/</website>
+        <source>https://github.com/addon-rajada/script.elementum.rajada</source>
+        <forum>TODO</forum>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
 <addon id="plugin.video.haru" name="haru" version="1.12.0" provider-name="pikdum">
   <requires>
     <import addon="xbmc.python" version="3.00.0"/>
