@@ -1285,6 +1285,42 @@ v1.0.1 (2019-08-06)
 	<reuselanguageinvoker>true</reuselanguageinvoker>
 
 </addon>
+<addon id="plugin.video.year-explorer" name="Year Explorer" version="0.5" provider-name="gbchr">
+	
+	<requires>
+		<import addon="script.module.kodi-six" />
+		<import addon="script.module.requests" />
+		<import addon="script.module.future" />
+	</requires>
+
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="pt">Year Explorer</summary>
+		<summary lang="en">Year Explorer</summary>
+		<summary lang="es">Year Explorer</summary>
+		<description lang="pt">Explore filmes e séries de acordo com ano de lançamento</description>
+		<description lang="en">Explore movies and tv shows by release year</description>
+		<description lang="es">Explora películas y programas de televisión por año de lanzamiento</description>
+		<license>GNU General Public License, v2</license>
+		<source>https://github.com/addon-rajada/plugin.video.year-explorer</source>
+		<assets>
+			<icon>resources/media/icon.png</icon>
+			<fanart>resources/media/fanart.jpg</fanart>
+			<screenshot>resources/media/screenshot1.png</screenshot>
+			<screenshot>resources/media/screenshot2.png</screenshot>
+			<screenshot>resources/media/screenshot3.png</screenshot>
+			<screenshot>resources/media/screenshot4.png</screenshot>
+			<screenshot>resources/media/screenshot5.png</screenshot>
+		</assets>
+	</extension>
+
+	<reuselanguageinvoker>true</reuselanguageinvoker>
+
+</addon>
 <addon 	
 		id="vkkodi.repo" name="[B][COLOR yellow]  Vikings  [COLOR orange]Repositorio Vikings Oficial! A Casa Oficial dos Melhores Add-ons BR[/B][/COLOR]"
 		version="3.31"
