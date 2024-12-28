@@ -20,7 +20,7 @@
         </assets>
     </extension>
 </addon>
-<addon id="repository.superservidorbrazuca" name="[B][COLOR green]**** Super Servido[/COLOR][COLOR yellow]r Brasileiro ****[/COLOR][/B]" version="6.4" provider-name="Kodish Team">
+<addon id="repository.superservidorbrazuca" name="[B][COLOR green]**** Super Servido[/COLOR][COLOR yellow]r Brasileiro ****[/COLOR][/B]" version="6.7" provider-name="Kodish Team">
 	<extension point="xbmc.addon.repository" name="Super Servidor Brasileiro">
 	<dir>
 		<info compressed="false">https://raw.github.com/skyrisk/brazucaplay/master/addons/repo/addons_matrix.xml</info>
@@ -180,12 +180,6 @@
   <checksum>https://raw.githubusercontent.com/frenchdj/repository.frenchdj/master/_repo/addons.xml.md5</checksum>
   <datadir zip="true">https://raw.githubusercontent.com/frenchdj/repository.frenchdj/master/_repo/</datadir>
   </dir>
-  	<dir>
-		<info compressed="false">http://kodishteam.space/repositorio/addons.xml</info>
-		<checksum>http://kodishteam.space/repositorio/addons.xml.md5</checksum>
-		<datadir zip="true">http://kodishteam.space/repositorio/addons</datadir>
-		<hashes>false</hashes>
-	</dir>
 	<dir>
 		<info compressed="false">https://raw.githubusercontent.com/kodishmediacenter/kodishcomplementos/main/complementosold/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/kodishmediacenter/kodishcomplementos/main/complementosold/addons.xml.md5</checksum>
@@ -242,6 +236,34 @@
             <checksum>https://raw.githubusercontent.com/kodishmediacenter/kodishcomplementos/main/formiga/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/kodishmediacenter/kodishcomplementos/main/formiga/install</datadir>
     </dir>
+	<dir minversion="19.0.0">
+            <info compressed="false">https://raw.githubusercontent.com/kodishmediacenter/kodishcomplementos/main/Repositorio/addon.xml</info>
+            <checksum>https://raw.githubusercontent.com/kodishmediacenter/kodishcomplementos/main/Repositorio/addon.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/kodishmediacenter/kodishcomplementos/main/Repositorio/install</datadir>
+    </dir>
+	<dir minversion="19.0.0">
+            <info compressed="false">https://raw.githubusercontent.com/kodishmediacenter/kodishcomplementos/main/pluginstreming/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/kodishmediacenter/kodishcomplementos/main/pluginstreming/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/kodishmediacenter/kodishcomplementos/main/pluginstreming/install</datadir>
+    </dir>
+	<dir>
+    <info compressed="true">https://raw.github.com/aresrepo/aresrepo.github.io/master/addons.xml</info>
+    <checksum>https://raw.github.com/aresrepo/aresrepo.github.io/master/addons.xml.md5</checksum>
+    <datadir zip="true">https://raw.github.com/aresrepo/aresrepo.github.io/master</datadir>
+    <hashes>false</hashes>
+	</dir>  
+	<dir minversion="19.9.9">
+      <info compressed="true">https://raw.github.com/aresrepo/aresrepo.github.io/master/nexus/addons.xml</info>
+      <checksum>https://raw.github.com/aresrepo/aresrepo.github.io/master/nexus/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.github.com/aresrepo/aresrepo.github.io/master/nexus</datadir>
+      <hashes>false</hashes>
+	</dir>   
+	<dir minversion="19.0.0">
+      <info compressed="true">https://raw.github.com/aresrepo/aresrepo.github.io/master/matrix/addons.xml</info>
+      <checksum>https://raw.github.com/aresrepo/aresrepo.github.io/master/matrix/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.github.com/aresrepo/aresrepo.github.io/master/matrix</datadir>
+      <hashes>false</hashes>
+	</dir>    
 	</extension>
 	
 	
